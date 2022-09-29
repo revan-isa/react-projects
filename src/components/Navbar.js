@@ -24,8 +24,13 @@ export const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link className="link" to={"/about"}>
-              About
+            <Link className="link" to={"/timer"}>
+              Timer
+            </Link>
+          </li>{" "}
+          <li>
+            <Link className="link" to={"/maxcount"}>
+              Max Count
             </Link>
           </li>
         </ul>
