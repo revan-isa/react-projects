@@ -33,6 +33,11 @@ export const Navbar = () => {
               Max Count
             </Link>
           </li>
+          <li>
+            <Link className="link" to={"/progressbar"}>
+              Progress Bar
+            </Link>
+          </li>
         </ul>
         <div
           className={`hamburger ${isActive ? "animate" : undefined}`}
