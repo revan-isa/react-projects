@@ -14,8 +14,8 @@ export const Navbar = () => {
         <h5>revan_isa</h5>
         <ul className={isActive ? "open" : undefined}>
           <li>
-            <Link className="link" to={"/"}>
-              Home
+            <Link className="link" to={"/employeelist"}>
+              Employee List
             </Link>
           </li>
           <li>
